@@ -1,0 +1,35 @@
+body {
+    font:100% arial,sans-serif;
+    margin:1.5em;
+}
+a {
+    text-decoration:none;
+    color:rgb(102,183,33)
+}
+a:hover {
+    color:rgb(70,132,17);
+}
+.header {
+    font-size:0.75em;
+    float:right;
+    margin-bottom: 2.0em;
+}
+li {
+    margin-bottom:0.4em;
+}
+table {
+    border-collapse:collapse
+}
+table, th, td {
+    border: 1px solid grey;
+}
+th, td {
+    padding: 0.7em;
+}
+th {
+    color: white;
+    background-color: darkgrey;
+}
+tr:nth-child(odd) {
+    background-color: ghostwhite;
+}
